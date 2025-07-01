@@ -96,7 +96,7 @@ const MetalSpaces = () => {
       </div>
 
       {/* Main Image Container */}
-      <div className="max-w-4xl mx-auto px-4 mb-16">
+      <div className="max-w-3xl mx-auto px-4 mb-16">
         <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-700 hover:shadow-3xl">
           {/* Image */}
           <div className="relative aspect-video bg-gradient-to-br from-gray-200 to-gray-300">
@@ -125,7 +125,7 @@ const MetalSpaces = () => {
                 </div>
 
                 {/* Tooltip */}
-                {hoveredHotspot === hotspot.id && (
+                {/* {hoveredHotspot === hotspot.id && (
                   <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-90 text-white px-4 py-3 rounded-lg shadow-xl z-10 min-w-64 animate-fadeIn">
                     <h3 className="font-semibold text-sm mb-1">
                       {hotspot.title}
@@ -135,7 +135,7 @@ const MetalSpaces = () => {
                     </p>
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-black border-opacity-90"></div>
                   </div>
-                )}
+                )} */}
               </div>
             ))}
           </div>

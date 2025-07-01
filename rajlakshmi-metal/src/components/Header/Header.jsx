@@ -274,6 +274,12 @@ export default function Header() {
               >
                 Home
               </a>
+              <a
+                href="#store"
+                className="font-bold text-xl hover:text-cyan-400 transition-colors"
+              >
+                About Us
+              </a>
 
               {/* Your Project */}
               <div className="relative group">
@@ -330,7 +336,7 @@ export default function Header() {
                 href="#store"
                 className="font-bold text-xl hover:text-cyan-400 transition-colors"
               >
-                About Us
+                Gallery
               </a>
               <a
                 href="#contact"
@@ -362,43 +368,37 @@ export default function Header() {
                 href="#what-we-make"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
-                What We Make
-              </a>
-              <a
-                href="#your-project"
-                className="block py-2 hover:text-cyan-400 transition-colors"
-              >
-                Your Project
-              </a>
-              <a
-                href="#store"
-                className="block py-2 hover:text-cyan-400 transition-colors"
-              >
-                Online Store
-              </a>
-              <a
-                href="#contact"
-                className="block py-2 hover:text-cyan-400 transition-colors"
-              >
-                Contact
+                Home
               </a>
               <a
                 href="#about"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
-                About
+                About Us
+              </a>
+              <a
+                href="#your-project"
+                className="block py-2 hover:text-cyan-400 transition-colors"
+              >
+                Our Products
               </a>
               <a
                 href="#press"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
-                Press
+                Gallery
               </a>
-              <a
-                href="#happenings"
+              {/* <a
+                href="#store"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
-                Happenings
+                Online Store
+              </a> */}
+              <a
+                href="#contact"
+                className="block py-2 hover:text-cyan-400 transition-colors"
+              >
+                Contact
               </a>
             </div>
           </div>

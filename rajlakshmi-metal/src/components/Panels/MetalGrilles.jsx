@@ -1,4 +1,8 @@
 import React from "react";
+import MadeToOrder from "../../assets/MadeToOrder.jpeg";
+import ReadyToShip from "../../assets/ReadyToShip.jpeg";
+import ReadyToShipOne from "../../assets/ReadyToShipOne.jpeg";
+import ReadyToShipTwo from "../../assets/ReadyToShipTwo.jpeg";
 
 function MetalGrilles() {
   return (
@@ -27,7 +31,15 @@ function MetalGrilles() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Made to Order Card */}
-            <div className="group relative overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 min-h-96 flex items-center justify-center transform transition-transform duration-500 hover:scale-105 animate-slide-left">
+            <div
+              style={{
+                backgroundImage: `url(${MadeToOrder})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+              }}
+              className="group relative overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 min-h-96 flex items-center justify-center transform transition-transform duration-500 hover:scale-105 animate-slide-left"
+            >
               {/* Decorative Pattern Overlay */}
               <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
                 <div className="absolute top-10 left-10 w-16 h-16 border-4 border-gray-400 rotate-45 transform origin-center animate-spin-slow"></div>
@@ -75,7 +87,15 @@ function MetalGrilles() {
             </div>
 
             {/* Ready to Ship Card */}
-            <div className="group relative overflow-hidden bg-gradient-to-br from-gray-300 to-gray-400 min-h-96 flex items-center justify-center transform transition-transform duration-500 hover:scale-105 animate-slide-right">
+            <div
+              style={{
+                backgroundImage: `url(${ReadyToShipTwo})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+              }}
+              className="group relative overflow-hidden bg-gradient-to-br from-gray-300 to-gray-400 min-h-96 flex items-center justify-center transform transition-transform duration-500 hover:scale-105 animate-slide-right"
+            >
               {/* Metal Pattern Overlay */}
               <div className="absolute inset-0 opacity-30 group-hover:opacity-40 transition-opacity duration-500">
                 {/* Circular metal pattern */}
@@ -93,7 +113,7 @@ function MetalGrilles() {
                 </div>
               </div>
 
-              <div className="relative z-10 text-center text-black">
+              <div className="relative z-10 text-center text-white">
                 <h2 className="text-4xl md:text-5xl font-light mb-8 tracking-wider group-hover:scale-110 transition-transform duration-300">
                   READY TO SHIP
                 </h2>
