@@ -28,12 +28,12 @@ function Footer() {
 
             <div>
               <h3 className="text-xl font-semibold mb-3">
-                Modern Metal Designs
+                Rajlakshmi Metal Designs
               </h3>
               <div className="space-y-2 text-gray-300">
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4 flex-shrink-0" />
-                  <span>Oakland, CA</span>
+                  <span> Bengaluru, Karnataka, India</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4 flex-shrink-0" />
@@ -41,7 +41,7 @@ function Footer() {
                     href="tel:5105167713"
                     className="hover:text-cyan-400 transition-colors"
                   >
-                    (510) 516-7713
+                    (+91) 890 416 2990
                   </a>
                 </div>
               </div>
@@ -100,13 +100,13 @@ function Footer() {
                 href="#"
                 className="block text-gray-300 hover:text-white transition-colors"
               >
-                Modern Metal Lookbook
+                Rajlakshmi Metal Lookbook
               </a>
               <a
                 href="#"
                 className="block text-gray-300 hover:text-white transition-colors"
               >
-                Your Project
+                Our Products
               </a>
               <a
                 href="#"
@@ -136,13 +136,13 @@ function Footer() {
                 <Mail className="w-4 h-4" />
                 <span>Contact</span>
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
               >
                 <User className="w-4 h-4" />
                 <span>My Account</span>
-              </a>
+              </a> */}
               <a
                 href="#"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
@@ -194,7 +194,7 @@ function Footer() {
 
         {/* Bottom Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>&copy; 2025 Modern Metal Designs</p>
+          <p>&copy; 2025 Rajlakshmi Metal Designs</p>
         </div>
       </div>
     </footer>

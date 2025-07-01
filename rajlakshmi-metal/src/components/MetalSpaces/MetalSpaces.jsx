@@ -70,9 +70,9 @@ const MetalSpaces = () => {
             , panels, and more for residential, hospitality, commercial and
             corporate spaces.
           </p>
-          <p className="text-base md:text-lg text-gray-500 animate-pulse">
+          {/* <p className="text-base md:text-lg text-gray-500 animate-pulse">
             Just hover over any of the flashing nodes to learn more!
-          </p>
+          </p> */}
         </div>
       </div>
 

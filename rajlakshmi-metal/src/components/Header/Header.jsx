@@ -241,7 +241,7 @@ export default function Header() {
 
             <div className="hidden lg:flex items-center space-x-8">
               {/* What We Make */}
-              <div className="relative group">
+              {/* <div className="relative group">
                 <span className="flex items-center space-x-1 font-bold text-xl hover:text-cyan-400 transition-colors cursor-pointer">
                   What We Make <ChevronDown className="w-4 h-4" />
                 </span>
@@ -265,7 +265,15 @@ export default function Header() {
                     Custom Metalwork
                   </a>
                 </div>
-              </div>
+              </div> */}
+
+              {/* Home */}
+              <a
+                href="#home"
+                className="font-bold text-xl hover:text-cyan-400 transition-colors"
+              >
+                Home
+              </a>
 
               {/* Your Project */}
               <div className="relative group">

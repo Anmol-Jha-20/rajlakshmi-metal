@@ -4,10 +4,12 @@ import Hero from "../components/Hero/Hero.jsx";
 import MetalGrilles from "../components/Panels/MetalGrilles.jsx";
 import MetalSpaces from "../components/MetalSpaces/MetalSpaces.jsx";
 import Footer from "../components/Footer/Footer.jsx";
+import FeaturedProducts from "../components/FeaturedProducts/FeaturedProducts.jsx";
+import TestimonialCarousel from "../components/Testimonial/TestimonialCarousel.jsx";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen text-white">
       {/* Header/Navigation */}
       <Header />
 
@@ -15,6 +17,8 @@ export default function Home() {
       <Hero />
       <MetalGrilles />
       <MetalSpaces />
+      <FeaturedProducts />
+      <TestimonialCarousel />
       <Footer />
     </div>
   );
