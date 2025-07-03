@@ -57,7 +57,7 @@ export default function ModernMetalCarousel() {
       id: 1,
       title: "WHAT WE MAKE",
       description:
-        "Modern Metal makes precision-laser cut metal grilles, panels and more for residential, hospitality and corporate environments.",
+        "Rajlakshmi Metal makes precision-laser cut metal grilles, panels and more for residential, hospitality and corporate environments.",
       buttonText: "WHAT WE MAKE",
       backgroundImage:
         "https://modmetaldesigns.com/wp-content/uploads/2022/05/IMG_0243-1-1536x1152.jpg",
@@ -77,7 +77,7 @@ export default function ModernMetalCarousel() {
       id: 3,
       title: "READY TO SHIP",
       description:
-        "There's nothing ordinary about Modern Metal's Standard Line. It's pretty extraordinary – including the lead time!",
+        "There's nothing ordinary about Rajlakshmi Metal's Standard Line. It's pretty extraordinary – including the lead time!",
       buttonText: "READY TO SHIP",
       backgroundImage:
         "https://modmetaldesigns.com/wp-content/uploads/2024/09/IMG_0204-1-1536x1053.jpg",
@@ -87,7 +87,7 @@ export default function ModernMetalCarousel() {
       id: 4,
       title: "ABOUT US",
       description:
-        "Annie Kantor, a.k.a. The Woman of Steel, and founder of Modern Metal shares her passion and skills with you.",
+        "Annie Kantor, a.k.a. The Woman of Steel, and founder of Rajlakshmi Metal shares her passion and skills with you.",
       buttonText: "ABOUT",
       backgroundImage:
         "https://modmetaldesigns.com/wp-content/uploads/2024/09/5.23.24-1177-1-1-1536x1024.jpg",

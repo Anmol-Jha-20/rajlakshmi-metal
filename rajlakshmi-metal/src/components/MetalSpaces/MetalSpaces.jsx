@@ -77,7 +77,7 @@ const MetalSpaces = () => {
       </div>
 
       {/* Tab Navigation */}
-      <div className="flex justify-center mb-12">
+      {/* <div className="flex justify-center mb-12">
         <div className="flex bg-white rounded-full shadow-lg p-2 transition-all duration-300 hover:shadow-xl">
           {["RESIDENTIAL HOME", "HOTEL LOBBY"].map((tab) => (
             <button
@@ -93,18 +93,33 @@ const MetalSpaces = () => {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Main Image Container */}
-      <div className="max-w-3xl mx-auto px-4 mb-16">
+      <div className="w-full mx-auto px-4 mb-16">
         <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-700 hover:shadow-3xl">
           {/* Image */}
           <div className="relative aspect-video bg-gradient-to-br from-gray-200 to-gray-300">
-            <img
+            {/* <img
               src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
               alt="Modern minimalist living space with metal accents"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            />
+            /> */}
+            <video
+              className="w-full"
+              width="640"
+              height="360"
+              controls
+              autoPlay
+              muted
+              loop
+            >
+              <source
+                src="https://ambrometals.com/wp-content/uploads/2024/08/AmbroMetals.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
 
             {/* Interactive Hotspots */}
             {hotspots.map((hotspot) => (
@@ -120,9 +135,9 @@ const MetalSpaces = () => {
                 <div className="absolute inset-0 rounded-full bg-blue-400 animate-ping opacity-20 animation-delay-300"></div>
 
                 {/* Center Dot */}
-                <div className="relative w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow-lg transition-all duration-300 hover:scale-125 hover:bg-blue-700">
+                {/* <div className="relative w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow-lg transition-all duration-300 hover:scale-125 hover:bg-blue-700">
                   <div className="absolute inset-0 rounded-full bg-blue-400 animate-pulse"></div>
-                </div>
+                </div> */}
 
                 {/* Tooltip */}
                 {/* {hoveredHotspot === hotspot.id && (
@@ -141,7 +156,7 @@ const MetalSpaces = () => {
           </div>
 
           {/* Bottom Info Bar */}
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent p-6">
+          {/* <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent p-6">
             <div className="text-white">
               <h2 className="text-xl md:text-2xl font-light mb-2">
                 {activeTab === "RESIDENTIAL HOME"
@@ -154,7 +169,7 @@ const MetalSpaces = () => {
                   : "Sophisticated hospitality design with premium metal accents"}
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
