@@ -395,7 +395,7 @@ function Footer() {
                   "What We Make",
                   "Rajlakshmi Metal Lookbook",
                   "Our Products",
-                  "Ready to Ship",
+                  "About Us",
                   "Request a Quote",
                 ].map((item) => (
                   <a

@@ -61,7 +61,7 @@ const AboutSection = () => {
   }, [animateNumbers]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div id="about" className="min-h-screen bg-gray-50">
       {/* Hero Section for spacing */}
       {/* <div className="h-screen bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
         <div className="text-center text-white">

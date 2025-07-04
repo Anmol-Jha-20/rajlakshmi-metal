@@ -10,9 +10,9 @@ import AboutSection from "../components/About/about.jsx";
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-white">
+    <div>
       {/* Header/Navigation */}
-      <Header />
+      {/* <Header /> */}
 
       {/* Hero Section */}
       <Hero />
@@ -21,7 +21,7 @@ export default function Home() {
       <MetalSpaces />
       <FeaturedProducts />
       <TestimonialCarousel />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
