@@ -66,7 +66,8 @@ export default function Header() {
               {/* Your Project */}
               <div className="relative group">
                 <span className="flex items-center space-x-1 font-bold text-xl hover:text-cyan-400 transition-colors cursor-pointer">
-                  Our Products <ChevronDown className="w-4 h-4" />
+                  <Link to={"/our-products"}>Our Products</Link>{" "}
+                  <ChevronDown className="w-4 h-4" />
                 </span>
                 <div className="absolute top-full left-0 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out bg-black/90 backdrop-blur-sm border border-gray-700 rounded-lg shadow-2xl z-20">
                   <Link
@@ -120,12 +121,12 @@ export default function Header() {
               >
                 Gallery
               </Link>
-              <a
-                href="#contact"
+              <Link
+                to={"/contact-us"}
                 className="font-bold text-xl hover:text-cyan-400 transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </div>
 
             {/* Mobile Menu Icon */}

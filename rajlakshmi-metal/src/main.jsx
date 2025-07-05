@@ -12,6 +12,8 @@ import BrassFittingCategoryPage from "./components/Products/BrassFitting/BrassFi
 import BrassRodCategoryPage from "./components/Products/BrassRod/BrassRod.jsx";
 import StainlessSteelSheet from "./components/Products/StainlessSteelSheet/StainlessSteelSheet.jsx";
 import StainlessSteelPipe from "./components/Products/StainlessSteelPipe/StainlessSteelPipe.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import ProductsPage from "./pages/OurProductsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
       {
         path: "/stainless-steel-pipe",
         element: <StainlessSteelPipe />,
+      },
+      {
+        path: "/contact-us",
+        element: <ContactPage />,
+      },
+      {
+        path: "/our-products",
+        element: <ProductsPage />,
       },
     ],
   },

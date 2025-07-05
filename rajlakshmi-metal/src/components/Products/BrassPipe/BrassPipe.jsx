@@ -16,6 +16,7 @@ import {
   Plus,
   Minus,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const BrassPipeCategoryPage = () => {
   const [selectedProduct, setSelectedProduct] = useState(0);
@@ -148,7 +149,9 @@ const BrassPipeCategoryPage = () => {
           <nav className="text-sm">
             <span className="text-gray-500">Home</span>
             <span className="mx-2 text-gray-400">/</span>
-            <span className="text-gray-500">Categories</span>
+            <span className="text-gray-500">
+              <Link to={"/our-products"}>Categories</Link>
+            </span>
             <span className="mx-2 text-gray-400">/</span>
             <span className="text-gray-800 font-medium">Brass Pipe</span>
           </nav>

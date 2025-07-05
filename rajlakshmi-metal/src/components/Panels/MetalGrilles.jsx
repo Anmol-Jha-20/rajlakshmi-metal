@@ -3,6 +3,7 @@ import MadeToOrder from "../../assets/MadeToOrder.jpeg";
 import ReadyToShip from "../../assets/ReadyToShip.jpeg";
 import ReadyToShipOne from "../../assets/ReadyToShipOne.jpeg";
 import ReadyToShipTwo from "../../assets/ReadyToShipTwo.jpeg";
+import { Link } from "react-router-dom";
 
 function MetalGrilles() {
   return (
@@ -21,7 +22,7 @@ function MetalGrilles() {
             Design in Unexpected Places
           </p>
           <button className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 text-sm font-medium tracking-wider transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-bounce-in">
-            VIEW THE LOOKBOOK
+            <Link to={"/gallery"}>VIEW THE LOOKBOOK</Link>
           </button>
         </div>
       </section>
@@ -81,7 +82,7 @@ function MetalGrilles() {
                   MADE TO ORDER
                 </h2>
                 <button className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-3 text-sm font-medium tracking-wider transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                  LEARN MORE
+                  <Link to={"/our-products"}>LEARN MORE</Link>
                 </button>
               </div>
             </div>
@@ -118,7 +119,7 @@ function MetalGrilles() {
                   READY TO SHIP
                 </h2>
                 <button className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-3 text-sm font-medium tracking-wider transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                  OUR PRODUCTS
+                  <Link to={"/our-products"}>OUR PRODUCTS</Link>
                 </button>
               </div>
             </div>
