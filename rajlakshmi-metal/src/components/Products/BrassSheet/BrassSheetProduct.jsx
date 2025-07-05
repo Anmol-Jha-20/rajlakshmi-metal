@@ -43,7 +43,7 @@ const BrassSheetCategoryPage = () => {
         Shape: "T",
       },
       description:
-        "High-quality brass copper wire with excellent conductivity and corrosion resistance. Made from premium grade brass with superior electrical properties. Perfect for electrical applications, jewelry making, and industrial use.",
+        "It is made from Stainless Steel colour sheet... Strip cutted from the sheet as per size of T. Then it is grooved at Our factory with msi v grooved technology to get sharp flat edges..we do 5 grooves To give luxurious look..Then it is carefully bend with msi Cnc Bending machine.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -70,7 +70,7 @@ const BrassSheetCategoryPage = () => {
         Brand: "Agarwal",
       },
       description:
-        "Premium brass sanitary pipe fittings for plumbing and water supply systems. Lead-free construction with antimicrobial properties. Designed for long-lasting performance in residential and commercial applications.",
+        "It possesses excellent mechanical properties, including high tensile strength and good corrosion resistance in addition to a distinctive golden color. It can withstand exposure to environmental conditions without degradation, making it a reliable choice for both indoor and outdoor applications.",
       features: [
         "Lead-Free",
         "Antimicrobial",
@@ -222,13 +222,13 @@ const BrassSheetCategoryPage = () => {
                       onClick={prevImage}
                       className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
-                      <ChevronLeft size={20} />
+                      <ChevronLeft className="text-black" size={20} />
                     </button>
                     <button
                       onClick={nextImage}
                       className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
-                      <ChevronRight size={20} />
+                      <ChevronRight className="text-black" size={20} />
                     </button>
                   </div>
 
@@ -394,10 +394,12 @@ const BrassSheetCategoryPage = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>

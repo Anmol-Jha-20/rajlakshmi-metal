@@ -210,13 +210,13 @@ const BrassFittingCategoryPage = () => {
                       onClick={prevImage}
                       className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
-                      <ChevronLeft size={20} />
+                      <ChevronLeft className="text-black" size={20} />
                     </button>
                     <button
                       onClick={nextImage}
                       className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
-                      <ChevronRight size={20} />
+                      <ChevronRight className="text-black" size={20} />
                     </button>
                   </div>
 
@@ -382,10 +382,12 @@ const BrassFittingCategoryPage = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>

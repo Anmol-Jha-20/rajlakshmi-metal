@@ -43,7 +43,7 @@ const BrassRodCategoryPage = () => {
         Shape: "T",
       },
       description:
-        "High-quality brass copper wire with excellent conductivity and corrosion resistance. Made from premium grade brass with superior electrical properties. Perfect for electrical applications, jewelry making, and industrial use.",
+        "Brass is an alloy made of copper and zinc that is highly workable and provides excellent corrosion resistance. It has great aesthetic appeal, and as a result, has a wide range of decorative and functional applications. Because of its unique properties, it is one of the most widely used metals.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -68,7 +68,7 @@ const BrassRodCategoryPage = () => {
         Brand: "Agarwal",
       },
       description:
-        "Premium brass sanitary pipe fittings for plumbing and water supply systems. Lead-free construction with antimicrobial properties. Designed for long-lasting performance in residential and commercial applications.",
+        "What are Brass Square Bars? Brass Square Bars are solid, square-shaped bars made from brass, an alloy of copper and zinc. Known for their strength, machinability, and resistance to corrosion, these bars are a preferred choice in various fabrication projects.",
       features: [
         "Lead-Free",
         "Antimicrobial",
@@ -93,7 +93,7 @@ const BrassRodCategoryPage = () => {
         Standard: "ANSI B16.5",
       },
       description:
-        "Precision-engineered round brass flanges for industrial pipe connections. Manufactured to international standards with excellent dimensional accuracy. Suitable for high-pressure applications.",
+        "Brass is an alloy made of copper and zinc that is highly workable and provides excellent corrosion resistance. It has great aesthetic appeal, and as a result, has a wide range of decorative and functional applications. Because of its unique properties, it is one of the most widely used metals.",
       features: [
         "Precision Machined",
         "High Strength",
@@ -364,10 +364,12 @@ const BrassRodCategoryPage = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>

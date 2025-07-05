@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const MetalSpaces = () => {
   const [activeTab, setActiveTab] = useState("RESIDENTIAL HOME");
   const [hoveredHotspot, setHoveredHotspot] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setIsVisible(true);
@@ -225,7 +227,10 @@ const MetalSpaces = () => {
             Discover how our custom metal solutions can elevate your residential
             or commercial project.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          <button
+            onClick={() => navigate("/contact-us")}
+            className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
             Get Started Today
           </button>
         </div>

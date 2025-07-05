@@ -384,10 +384,12 @@ const StainlessSteelPipe = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>

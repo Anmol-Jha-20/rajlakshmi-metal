@@ -42,7 +42,7 @@ const BrassPipeCategoryPage = () => {
         Shape: "T",
       },
       description:
-        "High-quality brass copper wire with excellent conductivity and corrosion resistance. Made from premium grade brass with superior electrical properties. Perfect for electrical applications, jewelry making, and industrial use.",
+        "[Durable Brass Tube] - Made of brass material, which is lightweight, with high strength, good thermal conductivity, corrosion resistance, high-temperature resistance, and can be used on various occasions.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -389,10 +389,12 @@ const BrassPipeCategoryPage = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>

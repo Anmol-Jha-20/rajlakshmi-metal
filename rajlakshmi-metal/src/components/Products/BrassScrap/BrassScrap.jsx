@@ -39,7 +39,7 @@ const BrassScrapCategoryPage = () => {
         Shape: "T",
       },
       description:
-        "High-quality brass copper wire with excellent conductivity and corrosion resistance. Made from premium grade brass with superior electrical properties. Perfect for electrical applications, jewelry making, and industrial use.",
+        "ISRI Code - Honey Yellow Brass Scrap is a copper alloy that comprises of about 60-70% copper, 30-40% of zinc, tin and lead in traces. Yellow Brass Scrap must be free of iron, paint, plastic, washers, glass, etc. ISRI Code HONEY Brass Scrap appears yellowish in colour due to the presence of more zinc.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -361,10 +361,12 @@ const BrassScrapCategoryPage = () => {
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    <Phone size={16} />
-                    <span>Call Now</span>
-                  </button>
+                  <a href="tel:8904162990">
+                    <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                      <Phone size={16} />
+                      <span>Call Now</span>
+                    </button>
+                  </a>
                   <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
                     <Mail size={16} />
                     <span>Send Email</span>
