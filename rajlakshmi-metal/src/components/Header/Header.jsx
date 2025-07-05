@@ -147,42 +147,44 @@ export default function Header() {
         {isMobileMenuOpen && (
           <div className="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-sm border-t border-gray-700 z-40">
             <div className="px-4 py-6 space-y-4">
-              <a
-                href="#what-we-make"
+              <Link
+                to={"/"}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Home
-              </a>
-              <Link
-                to={"/#about"}
+              </Link>
+              <HashLink
+                smooth
+                to="/#about"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 About Us
-              </Link>
-              <a
-                href="#your-project"
+              </HashLink>
+              <Link
+                to={"/our-products"}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Our Products
-              </a>
-              <a
-                href="#press"
+              </Link>
+
+              <Link
+                to="/gallery"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Gallery
-              </a>
+              </Link>
               {/* <a
                 href="#store"
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Online Store
               </a> */}
-              <a
-                href="#contact"
+              <Link
+                to={"/contact-us"}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         )}

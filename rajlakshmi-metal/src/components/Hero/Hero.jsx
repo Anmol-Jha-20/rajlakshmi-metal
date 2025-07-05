@@ -48,9 +48,11 @@
 // }
 
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ModernMetalCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const navigate = useNavigate();
 
   const slides = [
     {
@@ -230,7 +232,10 @@ export default function ModernMetalCarousel() {
                 <p className="text-white font-sans text-base md:text-lg font-light mb-6 md:mb-8 max-w-md leading-relaxed animate-fade-in-up animation-delay-300">
                   {slide.description}
                 </p>
-                <button className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 md:px-8 md:py-4 text-white text-sm md:text-base font-semibold rounded transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-fade-in-up animation-delay-600">
+                <button
+                  onClick={() => navigate("/our-products")}
+                  className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 md:px-8 md:py-4 text-white text-sm md:text-base font-semibold rounded transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-fade-in-up animation-delay-600"
+                >
                   {slide.buttonText}
                 </button>
               </div>

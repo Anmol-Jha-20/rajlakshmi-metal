@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Users, CheckCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -7,6 +8,7 @@ const AboutSection = () => {
   const [happyClients, setHappyClients] = useState(0);
   const [projectsDone, setProjectsDone] = useState(0);
   const aboutRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -196,7 +198,10 @@ const AboutSection = () => {
                     : "opacity-0 translate-y-5"
                 }`}
               >
-                <button className="bg-black text-white px-8 py-3 md:px-10 md:py-4 rounded-md font-semibold text-sm md:text-base hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                <button
+                  onClick={() => navigate("/our-products")}
+                  className="bg-black text-white px-8 py-3 md:px-10 md:py-4 rounded-md font-semibold text-sm md:text-base hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                >
                   Explore More
                 </button>
               </div>
