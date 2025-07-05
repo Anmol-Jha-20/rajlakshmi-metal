@@ -149,6 +149,7 @@ export default function Header() {
             <div className="px-4 py-6 space-y-4">
               <Link
                 to={"/"}
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Home
@@ -156,12 +157,14 @@ export default function Header() {
               <HashLink
                 smooth
                 to="/#about"
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 About Us
               </HashLink>
               <Link
                 to={"/our-products"}
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Our Products
@@ -169,6 +172,7 @@ export default function Header() {
 
               <Link
                 to="/gallery"
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Gallery
@@ -181,6 +185,7 @@ export default function Header() {
               </a> */}
               <Link
                 to={"/contact-us"}
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-2 hover:text-cyan-400 transition-colors"
               >
                 Contact

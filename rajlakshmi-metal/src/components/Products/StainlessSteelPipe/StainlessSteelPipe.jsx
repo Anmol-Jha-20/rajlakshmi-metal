@@ -208,7 +208,7 @@ const StainlessSteelPipe = () => {
                       alt={currentProduct.name}
                       className="w-full h-96 object-cover rounded-lg"
                     />
-                    <button
+                    {/* <button
                       onClick={prevImage}
                       className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
@@ -219,7 +219,7 @@ const StainlessSteelPipe = () => {
                       className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg"
                     >
                       <ChevronRight className="text-black" size={20} />
-                    </button>
+                    </button> */}
                   </div>
 
                   <div className="flex space-x-2">
